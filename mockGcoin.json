@@ -1,0 +1,13 @@
+{
+  "series": [
+    {
+      "fields": [
+        { "name": "step", "values": [119] },
+        { "name": "tokenPrice", "values": ["0.000103245"] },
+        { "name": "1DollarPriceinG", "values": [9685.7] },
+        { "name": "tokenIncrease", "values": [9.32] },
+        { "name": "totalPurchasedG", "values": [6392439879] }
+      ]
+    }
+  ]
+}

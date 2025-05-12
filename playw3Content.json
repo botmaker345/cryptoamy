@@ -1,0 +1,402 @@
+[
+  {
+    "question": "What is this gaming portal?",
+    "answer": "This is a fully decentralized, Web3, social iGaming and trading portal. It connects players, traders, partners, and content creators in a fully on-chain and community-driven ecosystem, with no real money involved \u2014 only G Coin for activities and rewards."
+  },
+  {
+    "question": "How's the gaming portal different from other gaming platforms?",
+    "answer": "No House Edge \u2013 100% peer-to-peer (PvP) gameplay.\nTrue Ownership \u2013 You control your assets; no centralized authority.\nInstant Payouts \u2013 Smart contracts ensure real-time rewards.\nScarcity-Driven Tokenomics \u2013 G Coin has a fixed supply, increasing demand over time."
+  },
+  {
+    "question": "How do I sign up?",
+    "answer": "You can register by connecting a crypto wallet (MetaMask, Coinbase) or by creating a digital  wallet using your socail media account for instant access."
+  },
+  {
+    "question": "What currency does the gaming portal operate on?",
+    "answer": "The gaming portal operates exclusively on G Coin, the in-game token used for playing, trading, and earning rewards."
+  },
+  {
+    "question": "Can I play from anywhere?",
+    "answer": "Yes! However, you must be at least 18 years old and legally permitted to play according to the laws of your country"
+  },
+  {
+    "question": "Is this a gambling portal?",
+    "answer": "No. This is a social gaming and prediction portal \u2014 no real money, no gambling. It is powered by G Coin and based on skill and community play."
+  },
+  {
+    "question": "What games are available ?",
+    "answer": "AI-Powered Prediction Games \u2013 Predict financial trends and market movements.\nCrash Market Games \u2013 Join UP or Down Pool And predict an asset direction.\nPvP Sports Trading \u2013 Bet against other players in live sports events."
+  },
+  {
+    "question": "Are the games fair?",
+    "answer": "Yes! All game results are determined by smart contracts, ensuring fairness, transparency, and no manipulation."
+  },
+  {
+    "question": "Do I need G Coin to play?",
+    "answer": "Yes. G Coin is required for all bets and trades within the platform."
+  },
+  {
+    "question": "How do I collect my winnings?",
+    "answer": "Your winnings are automatically credited to your wallet in G Coin, with no manual withdrawal needed."
+  },
+  {
+    "question": "Are bots allowed (AI Players)?",
+    "answer": "Yes, AI-driven trading bots (Player) can be used."
+  },
+  {
+    "question": "How are winners determined?",
+    "answer": "Winners are decided based on <b>real-time market results</b>, sports event outcomes, or smart contract calculations."
+  },
+  {
+    "question": "What is the minimum  and max Bet ?",
+    "answer": "The minimum bet is 500 G coins & maximum bet is 1000000 G coins"
+  },
+  {
+    "question": "What are AI Liquidity Players?",
+    "answer": "AI Liquidity Players are automated, AI-driven participants in the game that help maintain liquidity in prediction pools. They ensure seamless gameplay, and continuous action for real players."
+  },
+  {
+    "question": "How can I purchase G Coins?",
+    "answer": "You can buy G Coins through the in-game marketplace using crypto or traditional payment methods."
+  },
+  {
+    "question": "Is there a minimum purchase amount ?",
+    "answer": "The minimum purchase amount via credit or debit card is $30 (processed through a third-party on-ramp). There is no minimum purchase requirement for crypto transactions."
+  },
+  {
+    "question": "Can I withdraw my G Coins?",
+    "answer": "Yes! You can transfer your G Coins to any supported crypto wallet. You have full ownership and control over them."
+  },
+  {
+    "question": "Can I convert G Coins to fiat?",
+    "answer": "Not yet. However, according to our roadmap, once G Coin is listed on exchanges, players will have liquidity options."
+  },
+  {
+    "question": "Where can I see my transaction history?",
+    "answer": "You can track all transactions in the wallet dashboard."
+  },
+  {
+    "question": "Can I send G Coins to other players?",
+    "answer": "Yes! You can transfer G Coins to friends directly from your wallet to his/her wallet."
+  },
+  {
+    "question": "What is the Minimum and Maximum Bet?",
+    "answer": "The minimum bet is 1000 G Coins, and the maximum bet is 1,000,000 G Coins.\nHowever, these limits are subject to change, and each game may have its own specific minimum and maximum bet amounts within this range. Always check the game's betting rules before placing a wager"
+  },
+  {
+    "question": "What is G Coin?",
+    "answer": "G Coin is the native currency used within the gaming portal, designed to power social engagement, gameplay, and rewards."
+  },
+  {
+    "question": "Is G Coin an Investment?",
+    "answer": "No. G Coin is a utility token designed exclusively for use within the gaming portal ecosystem. It powers gameplay, transactions, and rewards but does not represent an investment, security, or financial asset."
+  },
+  {
+    "question": "How is G Coin used within the gaming portal?",
+    "answer": "<b> play games</b> <b>Earn rewards & participate in jackpots</b> Platform Engagment"
+  },
+  {
+    "question": "Can I convert my G Coins to fiat?",
+    "answer": "If G Coin is listed on exchanges, players will have expanded liquidity options."
+  },
+  {
+    "question": "Will G Coin be listed on exchanges?",
+    "answer": "According to our roadmap, plans are in place for G Coin to be listed on exchanges, but exact timing will depend on platform development and market conditions."
+  },
+  {
+    "question": "What happens when G Coin gets listed?",
+    "answer": "When listed, holders will have the ability to trade, buy, and sell G Coin on the open market. This could provide increased liquidity and further expand the ecosystem, but prices and demand will fluctuate based on market conditions."
+  },
+  {
+    "question": "What gives G Coin its value?",
+    "answer": "\u2022        Fixed supply.\n\u2022        Token burns.\n\u2022        Growing demand from games and partners.\n\u2022        Community-driven economy."
+  },
+  {
+    "question": "How do I earn more G Coin?",
+    "answer": "Winning gamesPurchasing Completing tasks Participating in promotions & contests"
+  },
+  {
+    "question": "How does the burn model work?",
+    "answer": "100% of all earnings from AI Liquidity Players are permanently burned once annually, reducing the circulating supply."
+  },
+  {
+    "question": "Are my G Coins safe?",
+    "answer": "Yes. Your G Coins are securely stored on the blockchain, ensuring full security and transparency. Your wallet is fully private\u2014only you have access to it. As long as you keep your private key safe, no one can access your G Coins or interfere with your funds.Remember: Never share your private key with anyone, and always use trusted security practices to protect your wallet."
+  },
+  {
+    "question": "Where can I learn more about G coin",
+    "answer": "You can find more info on the Whitepaper, Tokenomics, and Pitch Deck pages."
+  },
+  {
+    "question": "How does the referral program work?",
+    "answer": "The referral program lets you earn commissions by inviting new players to the gaming portal. When someone signs up using your referral link and purchases G Coin, you receive a percentage of their purchase as a reward."
+  },
+  {
+    "question": "What are the referral commission rates?",
+    "answer": "The referral program is multi-tiered, meaning you earn from direct referrals and their referrals:\n15% from direct referrals (players you invite).\n10% from second-tier referrals (players invited by your referrals).\n5% from third-tier referrals (players invited by second-tier referrals)."
+  },
+  {
+    "question": "How much can I earn from referrals? (Example Scenario)",
+    "answer": "Let\u2019s say a player you referred buys $1,000 worth of G Coin:\nYou receive 15% of their purchase, which means you earn $150.\nIf their referral buys $1000 worth of G Coin, you get 10% of that ($100).\nIf the third-tier referral buys $1000 worth of G Coin, you get 5% of that ($50). There\u2019s no limit to how many players you can refer or how much you can earn!"
+  },
+  {
+    "question": "Do I earn commissions from my referrals' gameplay?",
+    "answer": "No, referral commissions are only based on G Coin purchases during the presale. After the presale ends, commissions transition to a revenue-sharing model based on game fees."
+  },
+  {
+    "question": "How do I get my referral link?",
+    "answer": "Once you connect your wallet, you can generate a unique referral link from the referral Dashboard. You can share it via social media, websites, or direct messages."
+  },
+  {
+    "question": "How are my referral earnings paid?",
+    "answer": "Earnings are automatically credited to your wallet in USDP, and you can bridge them to USDT on CoinsExchange.com with zero commissions."
+  },
+  {
+    "question": "Is there a limit to how many people I can refer?",
+    "answer": "No! You can refer as many people as you want, and there\u2019s no cap on how much you can earn."
+  },
+  {
+    "question": "How can I maximize my referral earnings?",
+    "answer": "To maximize earnings:\n\nLeverage high-traffic platforms such as social media, YouTube, Telegram, and gaming communities to attract players.\nUtilize marketing tools like banners, social posts, and direct messaging to drive engagement and conversions."
+  },
+  {
+    "question": "Where can I track my referrals and earnings?",
+    "answer": "All referral activity, including new wallet connects, purchases, and commissions, can be monitored in the referral Dashboard"
+  },
+  {
+    "question": "What is the Super Affiliates Program?",
+    "answer": "The Super Affiliates Program is an exclusive, high-level affiliate system for top-performing referrers who drive significant traffic and G Coin purchases."
+  },
+  {
+    "question": "How is the Super Affiliates Program different from the standard referral program?",
+    "answer": "Higher Commissions \u2013 Super Affiliates earn 25% commissions on G Coin purchases.\nExclusive Bonuses \u2013 Unlock additional rewards for milestone achievements, including referral contests and VIP perks.\nPriority Support \u2013 Gain exclusive access to marketing resources and a dedicated account manager for personalized assistance."
+  },
+  {
+    "question": "How much can a Super Affiliate earn? (Example Scenario)",
+    "answer": "If a Super Affiliate brings in 100 clients per month, and each client purchases $1,000 worth of G Coin, the Super Affiliate's earnings would be calculated as follows:\nEach client purchase of $1,000 earns the Super Affiliate 25% commission, which is $250 per client.\nWith 100 clients per month, the total earnings would be:\n$250 x 100 = $25,000 per month.\nThis means that as long as the Super Affiliate continues to bring in 100 new clients per month, they can expect $25,000 in monthly commissions purely from direct referrals"
+  },
+  {
+    "question": "What are the requirements to become a Super Affiliate?",
+    "answer": "To qualify, you must:\nRefer at least 100 active players who have made G Coin purchases.\nMaintain a consistent flow of new referrals no matter their purchase value\nFollow"
+  },
+  {
+    "question": "\u2019s fair play and marketing policies.",
+    "answer": "Do Super Affiliates earn from recurring player activity?"
+  },
+  {
+    "question": "yes Super Affiliates earn 25% commission on purchases during presale. after pre sale during  post sale commsion will be based on revenue-sharing commission model.",
+    "answer": "Can I lose my Super Affiliate status?"
+  },
+  {
+    "question": "Yes. If you stop referring new players or violate",
+    "answer": "\u2019s affiliate policies, you may lose your Super Affiliate status and revert to the standard referral program"
+  },
+  {
+    "question": "How do I get marketing materials to promote",
+    "answer": "Super Affiliates have access to a Marketing Toolkit, which includes:\nCustom banners & ad creatives\nLanding pages\nReferral tracking links\nExclusive social media content"
+  },
+  {
+    "question": "What happens to the referral & Super Affiliate commission structure after G Coin is listed on exchanges?",
+    "answer": "If G Coin is listed on exchanges, the commission structure will  transition from Purschases to a revenue share model of fees. Instead of earning  commission on G coin purchases, affiliates will  start earning a percentage of referred players' ongoing activity, such as:\nGame fees from plays and trades.\nRevenue share from long-term player engagement.\nThis change would ensure sustained affiliate earnings over time instead of just upfront commissions. More details will be provided closer to the listing date."
+  },
+  {
+    "question": "What is the \"Be the Boss\" Partner Program?",
+    "answer": "The \"Be the Boss\" Partner Program is a turnkey solution that enables entrepreneurs to own and operate their own branded Web3 iGaming portal without any technical expertise. Partners receive a fully functional social iGaming platform, earn 50% commissions on player purchases during presale, and transition to a revenue-sharing model on game fees after presale (post-sale phase). All transactions are secured through blockchain-powered automation, ensuring transparency and efficiency."
+  },
+  {
+    "question": "Why should I join the Partner Program?",
+    "answer": "The program is built for entrepreneurs, influencers, content creators, and marketers looking to monetize the growing Web3 gaming industry. Key benefits include:\n\n\u2705 50% commission on all G Coin purchases made through your portal (during presale).\n\u2705 Fully branded iGaming portal, ready to go live in minutes.\n\u2705 Revenue-sharing model on game fees after presale.\n\u2705 No operational or technical workload\u2014fully automated on blockchain.\n\u2705 No marketing restrictions\u2014promote freely across all platforms."
+  },
+  {
+    "question": "How does the Partner Program work?",
+    "answer": "1\ufe0f\u20e3 Launch Your Portal \u2013 Choose your brand name, register, and go live instantly with your fully branded Web3 iGaming platform.\n2\ufe0f\u20e3 Promote Your Portal \u2013 Leverage your marketing channels to attract and onboard players.\n3\ufe0f\u20e3 Earn Daily Revenue \u2013 Get 50% commissions on G Coin purchases (during presale) and transition to revenue sharing on game fees after presale, maximizing long-term earnings."
+  },
+  {
+    "question": "Who can join the Partner Program?",
+    "answer": "Anyone can join, whether you\u2019re an entrepreneur, influencer, affiliate marketer, or gaming enthusiast. No prior experience is required"
+  },
+  {
+    "question": "How do I make money with my gaming portal?",
+    "answer": "You earn revenue through three primary sources:\n1\ufe0f\u20e3 50% Commission on Token Purchases (During Presale) \u2013 Earn half of all G Coin purchases made on your portal.\n2\ufe0f\u20e3 50% Commission on Game Fees (During Post-Sale) \u2013 Once the presale ends, you continue earning 50% of all game fees generated by players on your portal.\n3\ufe0f\u20e3 Partner Referral Bonus \u2013 Earn an extra $250 for every new partner you refer to the Be the Boss program. Bring in 10 partners a month, and that\u2019s an additional $2,500 in bonus earnings!\nWith daily automated payouts and multiple revenue streams, your earnings scale as your network and player base grow."
+  },
+  {
+    "question": "How much can I earn?",
+    "answer": "If a Partner brings in 100 players per month, and each player purchases $1,000 worth of G Coin, the earnings breakdown is:\n\u2705 Each player's $1,000 purchase earns the Partner 50% commission = $500 per player\n\u2705 100 players per month = $500 x 100 = $50,000 in commissions monthly\nIf the entire network generates $100,000 in token purchases, the Partner earns $50,000 in commissions.\n\ud83d\udca1 This means that a Partner\u2019s earnings scale not only from direct referrals but also from the referral network they build."
+  },
+  {
+    "question": "When and how do I receive my payouts?",
+    "answer": "\u2705 Payouts are processed daily at 12:00 GMT.\n\u2705 Funds are automatically credited to your wallet in USDP Equivalent to USDT\n\u2705 No manual withdrawal requests needed\u2014blockchain automation handles everything."
+  },
+  {
+    "question": "What happens to the commission structure after G Coin is listed on exchanges?",
+    "answer": "If G Coin is listed on exchanges, the commission structure will transition from purchase-based commissions to a revenue-sharing model. Instead of earning commissions on G Coin purchases, \"Be The Boss\" Partners will start earning a percentage of referred players' ongoing activity, including:\n\u2705 Game fees from plays and trades.\n\u2705 Revenue share from long-term player engagement.\nThis change ensures sustained earnings for \"Be The Boss\" Partners over time, rather than just one-time commissions from purchases. More details will be provided as the listing date approaches."
+  },
+  {
+    "question": "Can I use my own brand name for the portal?",
+    "answer": "Yes! Your portal will be fully branded with your chosen subdomain name, such as [yourbrandname]."
+  },
+  {
+    "question": "How does",
+    "answer": "ensure security for players?"
+  },
+  {
+    "question": "is built on blockchain technology, ensuring that all transactions and game outcomes are tamper-proof, transparent, and secure. The platform uses smart contracts to automate payouts, verify transactions, and prevent fraud.",
+    "answer": "Is my"
+  },
+  {
+    "question": "account secure?",
+    "answer": "Yes."
+  },
+  {
+    "question": "incorporates multiple security layers to protect user accounts, including:\n\u2705 Blockchain-based transparency \u2013 All transactions are recorded on-chain.\n\u2705 No centralized fund custody \u2013 You own and control your funds at all times.\n\u2705 Smart contract automation \u2013 Prevents manipulation and ensures fairness.\n\u2705 Wallet-based login \u2013 No need for passwords, reducing phishing risks.",
+    "answer": "How does blockchain ensure fair gameplay?"
+  },
+  {
+    "question": "uses smart contracts to automatically execute and verify all game results. This means:\nNo human intervention in game outcomes.\nTamper-proof gaming records visible on the blockchain.\nInstant, automated payouts\u2014no waiting or hidden fees.",
+    "answer": "Can"
+  },
+  {
+    "question": "or any admin control my funds?",
+    "answer": "No."
+  },
+  {
+    "question": "does not control, hold, or manage user funds. Your assets remain in your personal wallet, meaning you have full custody at all times.",
+    "answer": "What security measures protect my transactions?"
+  },
+  {
+    "question": "On-chain transaction verification \u2013 Every transaction is stored permanently on the blockchain.\nNon-custodial wallet system \u2013",
+    "answer": "never holds user funds.\nEnd-to-end encryption \u2013 Secures all player interactions."
+  },
+  {
+    "question": "Can my",
+    "answer": "account be hacked?"
+  },
+  {
+    "question": "Because",
+    "answer": "uses a wallet-based login system, there is no traditional username-password setup, reducing the risk of phishing and hacking. However, you must keep your private keys and seed phrases safe to prevent unauthorized access. If you lose access to your wallet, follow these steps:\nCheck if you saved your private key or seed phrase \u2013 This is the only way to restore your wallet.\nIf using a social wallet, log in with your social account.\nIf you lost your private key/seed phrase,"
+  },
+  {
+    "question": "cannot recover your wallet due to its decentralized nature.",
+    "answer": "Can someone steal my G Coins?"
+  },
+  {
+    "question": "As long as you keep your wallet credentials private, no one can access your funds. Avoid sharing your private key or signing unknown smart contracts to prevent theft.",
+    "answer": "How do I report a suspicious activity or scam attempt?"
+  },
+  {
+    "question": "If you suspect any fraudulent activity, immediately contact",
+    "answer": "Support via official channels. Never share your private keys with anyone claiming to be"
+  },
+  {
+    "question": "staff.",
+    "answer": "What is PlayBlock?"
+  },
+  {
+    "question": "PlayBlock is Playnance\u2019s high-speed, zero-gas blockchain, designed to power seamless Web3 gaming and transactions with instant finality and full on-chain transparency.",
+    "answer": "Why No Gas Fees?"
+  },
+  {
+    "question": "PlayBlock eliminates gas fees to ensure instant, cost-free gameplay and transactions, creating a frictionless experience for players and operators.",
+    "answer": "Is PlayBlock Public?"
+  },
+  {
+    "question": "Yes\u2014PlayBlock is fully transparent and on-chain, providing an open and verifiable blockchain environment for all users.",
+    "answer": "Can Developers Build on PlayBlock?"
+  },
+  {
+    "question": "Yes\u2014PlayBlock offers a developer-friendly SDK and API, enabling seamless integration for games, dApps, and third-party applications.",
+    "answer": "How to Add PlayBlock Network to my Wallet"
+  },
+  {
+    "question": "To manually add PlayBlock Network to MetaMask or any Web3-compatible wallet, follow these steps:\n1\ufe0f\u20e3 Open Your Wallet \u2013 Launch MetaMask (or your preferred Web3 wallet).\n2\ufe0f\u20e3 Go to Settings \u2013 Click on your profile icon and navigate to \"Settings\" > \"Networks.\"\n3\ufe0f\u20e3 Click \"Add Network\" and enter the following details:\nNetwork Name: PlayBlock\nRPC URL: https://rpc.playblock.io/\nChain ID: Insert Chain ID Here\nSymbol: PBG\nBlock Explorer URL: https://explorer.playblock.io/\n4\ufe0f\u20e3 Save & Switch Networks \u2013 Click \"Save\" and select PlayBlock as your active network.",
+    "answer": "How to Add G Coin to Your Wallet"
+  },
+  {
+    "question": "Add G Coin to Your Wallet\nTo add G Coin (GCN) to your wallet, follow these steps:\n1\ufe0f\u20e3 Go to MetaMask (or your Web3 wallet) and switch to PlayBlock Network.\n2\ufe0f\u20e3 Click \"Import Tokens.\"\n3\ufe0f\u20e3 Enter the G Coin contract details:\nToken Contract Address: 0xC3B539972C522d883aaA904aAAdcfE69A2d9F26B\nToken Symbol: G\nDecimals: 9\n4\ufe0f\u20e3 Click \"Add Custom Token\" and confirm the import.\n\ud83c\udf89 Done! Your wallet is now set up with PlayBlock Network and G Coin, allowing you to transact seamlessly. \ud83d\ude80",
+    "answer": "How do I qualify for the jackpot?"
+  },
+  {
+    "question": "To qualify, you must collect a minimum number of jackpot tickets during the qualifying period. The more tickets you have, the better your chances of winning.",
+    "answer": "How do I earn jackpot tickets?"
+  },
+  {
+    "question": "You earn jackpot tickets by playing games. Some games offer more tickets than others, allowing you to strategically increase your chances of winning.\nFor every 1,000 G Coin wagered, you receive 1 ticket. The more you play, the more tickets you collect, boosting your odds of hitting the jackpot",
+    "answer": "What types of jackpots are available?"
+  },
+  {
+    "question": "There are <b>daily, weekly, monthly, and annual jackpots</b>, each with increasing prize pools based on player participation.",
+    "answer": "How are jackpot winners selected?"
+  },
+  {
+    "question": "Winners are determined based on ticket eligibility. Players with the most collected tickets have the highest chances of securing top rewards. All winners will be <b>announced live on the portal </b> and chosen randomly using <b>Random.org </b> for complete fairness.",
+    "answer": "How are jackpot prizes paid out?"
+  },
+  {
+    "question": "Jackpot winnings are distributed in <b>G Coin </b> directly to the winner\u2019s wallet.",
+    "answer": "What are quests, and how do they work?"
+  },
+  {
+    "question": "Quests are special tasks that allow you to earn G Coins by engaging with the community and portal. Completing tasks increases your rewards and boosts your in-game balance.",
+    "answer": "What kind of tasks can I complete in the quests?"
+  },
+  {
+    "question": "You can find all available quests and their rewards on the <b>Quest Page</b>. Check there for the latest tasks and start earning <b>G Coins!</b>",
+    "answer": "Are there special challenges or tournaments?"
+  },
+  {
+    "question": "Yes!",
+    "answer": "Frequently hosts <b>limited-time challenges and tournaments</b> where players can compete for additional prizes and rewards."
+  },
+  {
+    "question": "Can I track my jackpot and quest progress?",
+    "answer": "Yes! Your earned tickets and quest rewards can be monitored in the <b>Jackpot & Quests Dashboard.</b>"
+  },
+  {
+    "question": "I completed a task but didn\u2019t receive my reward. What should I do?",
+    "answer": "If you didn\u2019t receive your G Coin reward, ensure you followed the task correctly and wait a few minutes for processing. If the issue persists, contact support with proof of completion."
+  },
+  {
+    "question": "How do I attract players to my portal?",
+    "answer": "You can promote your portal through:\n\ud83d\udce2 Social media marketing \u2013 Facebook, Instagram, X, TikTok, YouTube, etc.\n\ud83d\udce2 Gaming communities \u2013 Telegram, Discord, Reddit.\n\ud83d\udce2 Influencer partnerships \u2013 Collaborate with content creators.\n\ud83d\udce2 Email campaigns & paid ads \u2013 Use performance marketing strategies."
+  },
+  {
+    "question": "Are there any marketing Jurestriction?",
+    "answer": "No! Unlike traditional gambling platforms,"
+  },
+  {
+    "question": "games are social gaming experiences, allowing unrestricted promotion across:\n\u2705 Google Ads\n\u2705 Facebook & Instagram Ads\n\u2705 Crypto and gaming communities",
+    "answer": "Are There Any Marketing Restrictions?"
+  },
+  {
+    "question": "Partners are free to market their portals without restrictions, as long as they adhere to our marketing guidelines. These guidelines ensure ethical promotion, compliance with regulations, and brand integrity.\nHowever, violating these guidelines may result in penalties, including the termination of the partnership. Always review and follow the official marketing policies to maintain good standing.",
+    "answer": "How do I sign up as a promoter or affiliate?"
+  },
+  {
+    "question": "Sign up for  Referral or Super Affiliate Program.\n2\ufe0f\u20e3 Get your unique referral tracking link.\n3\ufe0f\u20e3 Start promoting on social media, YouTube, or paid ads.\n4\ufe0f\u20e3 Earn commissions from player sign-ups and purcha",
+    "answer": "Does"
+  },
+  {
+    "question": "provide marketing materials for affiliates?",
+    "answer": "Yes! We provide:\n\ud83c\udfaf Custom banners & creatives for social media & ads.\n\ud83c\udfaf Landing pages & tracking links for performance-based marketing.\n\ud83c\udfaf Guides & best practices for crypto, gaming, and Web3 traffic."
+  },
+  {
+    "question": "What makes",
+    "answer": "different from other gaming affiliate programs?"
+  },
+  {
+    "question": "High Payouts \u2013 Earn up to 25% commission on referred purchases.\nNo Upfront Costs \u2013 100% free to join and start earning.\nEasy Marketing \u2013 No gambling restrictions; promote freely on social media and ad networks.\nFast Payments \u2013 Commissions are paid daily via blockchain smart contracts",
+    "answer": "Final Note:"
+  },
+  {
+    "question": "is committed to providing a transparent, secure, and rewarding experience for all partners and players. Our FAQ is designed to answer your most important questions, but if you need further assistance, feel free to reach out through our official support channels. Stay informed, follow the guidelines, and maximize your success in our ecosystem",
+    "answer": "What is the purpose of the G Coin Treasury?"
+  },
+  {
+    "question": "The G Coin Treasury is designed to support G Coin\u2019s value and liquidity once it is listed on external markets. It will be used for buybacks, liquidity provisioning, and stabilization strategies, ensuring long-term market health and price support.",
+    "answer": "How is the G Coin Treasury funded?"
+  },
+  {
+    "question": "20% of all revenue generated from G Coin sales is allocated to the Treasury. These funds are dedicated exclusively to market support, not general operations or team incentives.",
+    "answer": "Is the G Coin Treasury transparent?"
+  }
+]

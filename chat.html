@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CryptoAmy Group Listener</title>
+  <script src="https://unpkg.com/@cometchat-pro/chat@3.0.6/CometChat.js"></script>
+  <style>
+    body { font-family: sans-serif; background: #111; color: #fff; padding: 20px; }
+    #chat { max-width: 600px; margin: auto; background: #222; padding: 20px; border-radius: 10px; }
+    .msg { margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="chat">
+    <h2>👾 CryptoAmy Group Listener</h2>
+    <div id="messages"></div>
+  </div>
+
+  <script>
+    const appID = "274911bc2f133324";
+    const region = "EU";
+    const authKey = "d46cc00ad17cfa09b4c73bc5bda9f5a72bc77f45";
+    const botUID = "cryptoamy";
+    const groupID = "pw3c";
+
+    const messagesDiv = document.getElementById('messages');
+
+    const appendMessage = (sender, text) => {
+      const msg = document.createElement('div');
+      msg.className = 'msg';
+      msg.textContent = `${sender}: ${text}`;
+      messagesDiv.appendChild(msg);
+    };
+
+    const callBotAPI = async (message) => {
+      try {
+        const res = await fetch('https://d1de-80-178-144-32.ngrok-free.app/ask', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message })
+        });
+        const data = await res.json();
+        return data.response;
+      } catch (e) {
+        console.error("Bot API error:", e);
+        return "⚠️ Error getting response from CryptoAmy.";
+      }
+    };
+
+    const listenForMessages = () => {
+      CometChat.addMessageListener(
+        "cryptoamy-listener",
+        new CometChat.MessageListener({
+          onTextMessageReceived: async (msg) => {
+            const text = msg.text;
+            const sender = msg.sender.name;
+
+            appendMessage(sender, text);
+
+            if (text.toLowerCase().includes("cryptoamy")) {
+              const botReply = await callBotAPI(text);
+              const reply = new CometChat.TextMessage(
+                groupID,
+                botReply,
+                CometChat.RECEIVER_TYPE.GROUP
+              );
+
+              CometChat.sendMessage(reply).then(
+                () => appendMessage("CryptoAmy", botReply),
+                err => console.error("❌ Failed to send message:", err)
+              );
+            }
+          }
+        })
+      );
+    };
+
+    CometChat.init(appID, new CometChat.AppSettingsBuilder().setRegion(region).build()).then(() => {
+      console.log("✅ CometChat initialized");
+
+      CometChat.login(botUID, authKey).then(() => {
+        console.log("🤖 Logged in as CryptoAmy");
+
+        CometChat.joinGroup(groupID, CometChat.GROUP_TYPE.PUBLIC, "").then(() => {
+          console.log("📥 Joined group:", groupID);
+          listenForMessages();
+        }).catch(error => {
+          if (error.code === "ERR_ALREADY_JOINED") {
+            console.log("ℹ️ Already in the group, listening...");
+            listenForMessages();
+          } else {
+            console.error("❌ Join group failed:", error);
+          }
+        });
+
+      }, err => {
+        console.error("❌ Login failed:", err);
+      });
+
+    }, err => {
+      console.error("❌ Init failed:", err);
+    });
+  </script>
+</body>
+</html>

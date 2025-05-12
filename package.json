@@ -1,0 +1,20 @@
+{
+  "name": "cryptoamy",
+  "version": "1.0.0",
+  "description": "CryptoAmy Web3 Assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@cometchat-pro/chat": "^3.0.13",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.98.0",
+    "puppeteer": "^24.8.1"
+  }
+}
