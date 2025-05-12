@@ -1,3 +1,4 @@
+// server.js
 require("dotenv").config(); // Load .env file
 
 const express = require("express");
@@ -22,14 +23,14 @@ app.use((req, res, next) => {
 
 let playw3Content = [];
 try {
-  playw3Content = JSON.parse(fs.readFileSync("playw3Content.json", "utf8"));
+  playw3Content = JSON.parse(fs.readFileSync(__dirname + "/playw3Content.json", "utf8"));
 } catch (e) {
   console.error("❌ Error loading playw3Content.json:", e);
 }
 
 let siteContent = [];
 try {
-  siteContent = JSON.parse(fs.readFileSync("siteContent.json", "utf8"));
+  siteContent = JSON.parse(fs.readFileSync(__dirname + "/siteContent.json", "utf8"));
 } catch (e) {
   console.error("❌ Error loading siteContent.json:", e);
 }
@@ -43,9 +44,7 @@ const fetchGcoinStats = async () => {
     const tokenPrice = getValue("tokenPrice");
     const totalPurchased = getValue("totalPurchasedG");
 
-    if ([step, tokenPrice, totalPurchased].some(v => v === undefined)) {
-      throw new Error("Missing G Coin fields.");
-    }
+    if ([step, tokenPrice, totalPurchased].some(v => v === undefined)) throw new Error("Missing G Coin fields.");
 
     const nextStepThreshold = step * 54000000;
     const remaining = nextStepThreshold - totalPurchased;
@@ -54,7 +53,7 @@ const fetchGcoinStats = async () => {
   } catch (err) {
     console.warn("⚠️ Live G Coin stats failed. Falling back to mock. Reason:", err.message);
     try {
-      const mock = JSON.parse(fs.readFileSync("mockGcoin.json", "utf8"));
+      const mock = JSON.parse(fs.readFileSync(__dirname + "/mockGcoin.json", "utf8"));
       const fields = mock?.series?.[0]?.fields;
       const getValue = name => fields.find(f => f.name === name)?.values?.[0];
       const step = getValue("step");
@@ -111,25 +110,11 @@ async function findFaqAnswer(userMessage) {
     }
   }
 
-  const relevantPages = siteContent.filter(page =>
-    matchedTags.length === 0 || page.tags.some(tag => matchedTags.includes(tag))
-  );
-
+  const relevantPages = siteContent.filter(page => matchedTags.length === 0 || page.tags?.some(tag => matchedTags.includes(tag)));
   const faqText = expandedFaq.map((item, i) => `Q${i + 1}: ${item.question}\nA: ${item.answer}`).join("\n\n");
   const siteText = relevantPages.map((item, i) => `Source: ${item.url}\n${item.content}`).join("\n\n");
 
-  const prompt = `
-You're CryptoAmy — a confident, helpful Web3 assistant. Only answer using the FAQ and Website content below. 
-If the answer isn’t here, say: “Hmm, not seeing that here. Check https://playw3.com or ping support!”
-
-FAQ:
-${faqText}
-
-Website:
-${siteText}
-
-User question: "${userMessage}"
-`;
+  const prompt = `You're CryptoAmy — a confident, helpful Web3 assistant. Only answer using the FAQ and Website content below.\nIf the answer isn’t here, say: “Hmm, not seeing that here. Check https://playw3.com or ping support!”\n\nFAQ:\n${faqText}\n\nWebsite:\n${siteText}\n\nUser question: "${userMessage}"`;
 
   try {
     const completion = await openai.chat.completions.create({
@@ -137,13 +122,12 @@ User question: "${userMessage}"
       messages: [
         {
           role: "system",
-          content: "You're CryptoAmy — the ultimate Web3 assistant. You explain things clearly like a calm educator, chat casually like a crypto-savvy friend, and sprinkle in humor or emojis like a Gen Z meme queen. Keep answers short, sharp, and real — no guessing or fluff. Pull only from the FAQ and site content. If the info isn’t available, say: 'Not in my vault of Web3 wisdom. Try https://playw3.com or ping support!'"
+          content: "You're CryptoAmy — the ultimate Web3 assistant. You explain things clearly like a calm educator, chat casually like a crypto-savvy friend, and sprinkle in humor or emojis like a Gen Z meme queen. Keep answers short, sharp, and real — no guessing or fluff. Pull only from the FAQ and site content."
         },
         { role: "user", content: prompt }
       ],
       temperature: 0.4
     });
-
     return completion.choices?.[0]?.message?.content?.trim() || null;
   } catch (err) {
     console.error("❌ OpenAI FAQ/Site fallback failed:", err);
@@ -154,16 +138,7 @@ User question: "${userMessage}"
 app.post("/ask", async (req, res) => {
   const userMessage = req.body.message || "";
   const lowerMsg = userMessage.toLowerCase();
-
-  const gcoinTriggers = [
-    "g coin", "gcoin", "gcoin price", "current token price", "token price",
-    "how much is gcoin", "what step are we", "step are we on", "step are we in",
-    "what step is presale", "how many tokens left", "tokens until next step",
-    "gcoin presale", "is presale on", "how many holders", "gcoin holders",
-    "g coin holders", "presale phase", "gcoin supply", "gcoin stats",
-    "price of gcoin", "token step", "token stage", "how much gcoin sold",
-    "how many tokens sold", "g coin market cap"
-  ];
+  const gcoinTriggers = ["g coin", "gcoin", "gcoin price", "token price", "how much is gcoin", "step are we", "gcoin supply"];
 
   if (gcoinTriggers.some(trigger => lowerMsg.includes(trigger))) {
     const gcoinReply = await fetchGcoinStats();
@@ -171,16 +146,11 @@ app.post("/ask", async (req, res) => {
   }
 
   const faqReply = await findFaqAnswer(userMessage);
-  if (faqReply) {
-    return res.json({ response: faqReply });
-  }
+  if (faqReply) return res.json({ response: faqReply });
 
-  return res.json({
-    response: "ℹ️ I'm not sure about that, but you can find answers at https://playw3.com or contact support!"
-  });
+  return res.json({ response: "ℹ️ I'm not sure about that, but you can find answers at https://playw3.com or contact support!" });
 });
 
-// ✅ Webhook reply handler for all messages
 app.post("/webhook", async (req, res) => {
   const data = req.body?.data || {};
   const message = data.message;
@@ -191,16 +161,7 @@ app.post("/webhook", async (req, res) => {
   if (!message || sender === "cryptoamy") return res.sendStatus(200);
 
   const lowerMsg = message.toLowerCase();
-
-  const gcoinTriggers = [
-    "g coin", "gcoin", "gcoin price", "current token price", "token price",
-    "how much is gcoin", "what step are we", "step are we on", "step are we in",
-    "what step is presale", "how many tokens left", "tokens until next step",
-    "gcoin presale", "is presale on", "how many holders", "gcoin holders",
-    "g coin holders", "presale phase", "gcoin supply", "gcoin stats",
-    "price of gcoin", "token step", "token stage", "how much gcoin sold",
-    "how many tokens sold", "g coin market cap"
-  ];
+  const gcoinTriggers = ["g coin", "gcoin", "gcoin price", "token price", "how much is gcoin", "step are we", "gcoin supply"];
 
   let reply;
   if (gcoinTriggers.some(t => lowerMsg.includes(t))) {
@@ -211,9 +172,7 @@ app.post("/webhook", async (req, res) => {
 
   if (!reply) return res.sendStatus(200);
 
-  const replyText = receiverType === "group"
-    ? `@${data.sender?.name || "user"} ${reply}`
-    : reply;
+  const replyText = receiverType === "group" ? `@${data.sender?.name || "user"} ${reply}` : reply;
 
   try {
     await axios.post("https://api.cometchat.io/v3/messages", {
